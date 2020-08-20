@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Marc Gallofré
 
 # Username (this should match the folder name)
 authors:
@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: PhD Candidate
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: University of Bergen
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
