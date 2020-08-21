@@ -1,8 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Is It Possible to Sale-out Open Source Triple-Databases?"
-subtitle: "So far, the answer is not, it is not possible with open source TDB but it is possible with some comercial TDB or other technologies"
+title: "Is It Possible to Sale-out Open Source Triple-Stores?"
+subtitle: "So far, the answer is not, it is not possible with open source triple-stores but it is possible with some comercial triple-sotres or other technologies such as graph databases"
 summary: ""
 authors: [Marc Gallofré]
 tags: ["News Angler", "Blazegraph", "Software Architecture", "Semantic technologies"]
@@ -42,8 +42,9 @@ Later, the support for High Availability was droped out from the project, due to
 >
 >Thanks, Bryan
 
-Currently, since Blazegraph was taken over by Amazon (Neptune AWS), the plans for a scale-out open source platform seems to be stoped. Still, the stand-alone version Blazegraph is a really interesting option for working with open source triple-store which can manage big data volumes. And for those fearless adventurers who wants to try out a clustered version of Blazegraph, they can find a guide at https://github.com/blazegraph/database/wiki/ClusterGuide with the following advice: `We recommend that you ask for help when attempting your first cluster install!` (the author of this post doesn't take responsabilities for your failed attempts or disasters -- if you success, I will like to hear and lear how you have manage it : smile :) 
+Currently, since Blazegraph was taken over by Amazon (Neptune AWS), the plans for a scale-out open source platform seems to be stoped and it is not activly maintained. Still, the stand-alone version Blazegraph is a really interesting option for working with open source triple-store which can manage big data volumes. And for those fearless adventurers who wants to try out a clustered version of Blazegraph, they can find a guide at https://github.com/blazegraph/database/wiki/ClusterGuide with the following advice: `We recommend that you ask for help when attempting your first cluster install!` (the author of this post doesn't take responsabilities for your failed attempts or disasters -- if you success, I will like to hear and lear how you have manage it : smile : ) 
 
+So what? What can we do if we need to scale-out triple-stores?
 
 
 [^fn1]: https://www.w3.org/wiki/LargeTripleStores
