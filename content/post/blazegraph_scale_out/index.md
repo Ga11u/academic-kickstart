@@ -30,8 +30,8 @@ projects: []
 Blazegraph is an open source large triple-stores (more than ~1B triples) designed for RDF and SPARQL following the W3C and semantic web standards such as Jena TDB[^fn1]. Blazegraph, as many other large triple-stores, is not supporting scaling out (horisontal scaling) in its open surce versions, instead, they only suport scale up.
 
 In the case of Blazegraph we found in the Blazegraph Blog (https://blog.blazegraph.com/) the following information about High Availability (HA) and Scale-out features:
+
 > ### Enterprise Features (HA and Scale-out)
->
 > Starting in release 2.0.0, the Scale-out and HA capabilities are moved to Enterprise features. These are available to uses with support and/or license subscription. If you are an existing GPLv2 user of these features, we have some easy ways to migrate. Contact us for more information. We’d like to make it as easy as possible.
 
 Which is corroborated by Bryan Thompson (@thompsonbry), the Chief Scientist and founder of SYSTAP and one of the contributors of Blazegraph, in the issue #116 at Blazegraph/database GitHub (https://github.com/blazegraph/database/issues/116):
