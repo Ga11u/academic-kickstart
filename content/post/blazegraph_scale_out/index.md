@@ -31,7 +31,7 @@ Blazegraph like Jena TDB are open source large triple-stores (more than ~1B trip
 
 Blagraph was presented as a high performance scale-out triple-store for big data in it initials, but currently is not supporting scaling out. At the beginning, the scale-out was moved to a Enterprise fueture under licence supriptions, as we can see from  the following information about High Availability (HA) and Scale-out features in the Blazegraph Blog (https://blog.blazegraph.com/) :
 
-> ### Enterprise Features (HA and Scale-out)
+> #### Enterprise Features (HA and Scale-out)
 > Starting in release 2.0.0, the Scale-out and HA capabilities are moved to Enterprise features. These are available to uses with support and/or license subscription. If you are an existing GPLv2 user of these features, we have some easy ways to migrate. Contact us for more information. We’d like to make it as easy as possible.
 
 Later, the support for High Availability was droped out from the project, due to the lack of open source community, as it is corroborated by Bryan Thompson (@thompsonbry), the Chief Scientist and founder of SYSTAP and one of the contributors of Blazegraph, in the issue #116 at Blazegraph/database GitHub (https://github.com/blazegraph/database/issues/116):
