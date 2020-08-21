@@ -5,7 +5,7 @@ title: "Expanding Blazegraph"
 subtitle: ""
 summary: ""
 authors: [Marc Gallofré]
-tags: []
+tags: ["News Angler", "Blazegraph", "Software Architecture", "Semantic technologies"]
 categories: ["News Angler", "Blazegraph", "Software Architecture", "Semantic technologies"]
 date: 2020-08-21T10:52:25+02:00
 lastmod: 2020-08-21T10:52:25+02:00
