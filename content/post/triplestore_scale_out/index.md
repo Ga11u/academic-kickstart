@@ -41,7 +41,7 @@ So far, the scale-up seems to be solved with the large triple-stores[^fn1] that 
 >- 7 facts about every one of the 150B galaxies in the universe.
 >- 10 facts about each of the 107B people who ever lived.
 
-On the other hand, when talking about scale-out solutions for large triple-stores we find that scale-out solutions are offered by most of the propiertary platforms or only in licensing versions like Virtuoso Enterprise Edition, with the exception of Blazegraph which is the only open source platform that offers scale-out. {{< ref page="https://www.w3.org/wiki/LargeTripleStores" >}}
+On the other hand, when talking about scale-out solutions for large triple-stores we find that scale-out solutions are offered by most of the propiertary platforms or only in licensing versions like Virtuoso Enterprise Edition, with the exception of Blazegraph which is the only open source platform that offers scale-out.
 
 To know more about Blazegraph scale-out possibilities, I recommend you to read the following post:
 {{< cite page="/post/blazegraph-scale" view="1" >}}
@@ -51,6 +51,7 @@ To know more about Blazegraph scale-out possibilities, I recommend you to read t
 If we don't want to work with a propertary or licensing tripe-stores but still needing a scale-out configuration, then we have two options: (1) using some open source triple-store on top of a highly scalable database like Apache HBase[^fn8] or (2) we can use a graph database in combination with Gremlin. Both options have their pros and cons. Using a triple-store in combination with a highly scalable DB provides with the benefits of both platforms but the system maintenance and complexity is considerably increased. Whereas, while most of the graph databases do not support RDF, SPARQL, do not have reasoning or infering services and SPARQL quieres have to be translated to other query languages like Gremlin[^fn7] (although not all SPARQL queries can be transformed to Gremlin and Gremlin only supports SPARQL 1.0 and not 1.1), there is only one system to configure and maintain.
 
 Examples of such soultions are: the Jena+HBase triple-store which combines Apache Jena with Apache HBase to provide a scalable triple-store using RDF and SPARQL, Titan[^fn3] and JanusGraph[^fn4] graph databases that run on top of Apache HBase and Cassandra[^fn9] and suport Gremlin, or Neo4j[^fn5] and ArangoDB[^fn6] graph databases that also suport Gremlin.
+
 
 [^fn1]: https://www.w3.org/wiki/LargeTripleStores
 [^fnO]: https://www.oracle.com/database/technologies/spatialandgraph.html
@@ -67,3 +68,7 @@ Examples of such soultions are: the Jena+HBase triple-store which combines Apach
 [^fn9]: https://cassandra.apache.org
 [^fn5]: https://neo4j.com
 [^fn6]: https://www.arangodb.com
+
+{{< cite page="https://www.w3.org/wiki/LargeTripleStores" view="4" >}}
+
+{{< cite page="https://download.oracle.com/otndocs/tech/semantic_web/pdf/OracleSpatialGraph_RDFgraph_1_trillion_Benchmark.pdf" view="4" >}}
