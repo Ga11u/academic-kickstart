@@ -66,7 +66,6 @@ Examples of such soultions are: the Jena+HBase triple-store which combines Apach
 [^fn5]: https://neo4j.com
 [^fn6]: https://www.arangodb.com
 
-
 # Bibliography
 [1] W3C. *LargeTripleStores*: https://www.w3.org/wiki/LargeTripleStores (last accessed 26/08/2020)
 
