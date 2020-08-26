@@ -29,7 +29,7 @@ projects: ["News-Angler"]
 ---
 Semantic technologies are really interesting from a Big Data prespective. Yet, these technologies together with semantic web resources enhance Knowledge Graphs by providing reacher means for representing and defining facts, concepts, properties, relations and logic-rules, while facilitating knowledge graph understanding, integration and manipulation by using ontologies, standard vocabularies and linking its concepts to Linked Open Data (LOD) resources such as Wikidata, Schema.org or DBPedia. Nevertheless, Big Data cames with its known challanges like the need for systems that are able to scale-up and -out (vertical and horisontal scaling). Thus, semantic technologies and more precicely triple-stores which support RDF and SPARQL following the W3C and semantic web standards (i.e., the databases designed for storing knowledge graphs represented with triples in RDF and query them with SPARQL) must adapt and be redesigned to facilitate horisonal and vertical scaling. 
 
-So far, the scale-up seems to be solved with the large triple-stores[^fn1] that can handle big data volumes by adding more resources. E.g., propiertary triple-stores like the Spatial and Graph features in Oracle Database, the AnzoGraph DB and the AllegroGraph that can deal more than ~1T (10<sup>12</sup>) triples or open-source triple stores like the Virtuoso Open Source Edition (~58.58B = $~58.58x10\|^2$<sup>9</sup>), the Blazegraph (~12.7B)  and the Jena TDB (~1.7B). As we can see, in terms of dealing with big data volumes, open-source solutions are behind of those propiertary or licensing alternatives. But, the question that arises is: **Are those numbers big enough?** According to Orgacle's white paper[^fn2], 1T triples can represent:
+So far, the scale-up seems to be solved with the large triple-stores[^fn1] that can handle big data volumes by adding more resources. E.g., propiertary triple-stores like the Spatial and Graph features in Oracle Database, the AnzoGraph DB and the AllegroGraph that can deal more than ~1T (10<sup>12</sup>) triples or open-source triple stores like the Virtuoso Open Source Edition (~58.58B = ~58.58x10<sup>9</sup>), the Blazegraph (~12.7B)  and the Jena TDB (~1.7B). As we can see, in terms of dealing with big data volumes, open-source solutions are behind of those propiertary or licensing alternatives. But, the question that arises is: **Are those numbers big enough?** According to Orgacle's white paper[^fn2], 1T triples can represent:
 
 >- 1000 tweets for every one of the 1B Twitter users.
 >- 770 facts about every one of the 1.3B Facebook users.
@@ -39,9 +39,9 @@ So far, the scale-up seems to be solved with the large triple-stores[^fn1] that 
 >- 7 facts about every one of the 150B galaxies in the universe.
 >- 10 facts about each of the 107B people who ever lived.
 
-On the other hand, when talking about scale-out solutions for large triple-stores we find that scale-out solutions are offered by most of the propiertary platforms or only in licensing versions like Virtuoso Enterprise Edition, with the exception of Blazegraph which is the only open source platform that offers scale-out.
+On the other hand, when talking about scale-out solutions for large triple-stores we find that scale-out solutions are offered by most of the propiertary platforms or only in licensing versions like Virtuoso Enterprise Edition, with the exception of Blazegraph which is the only open source platform that offers scale-out. {{< cite page="/post/blazegraph-scale" view="4" >}}
 
-So what? What can we do if we need to scale-out triple-stores and we want to use and support open-source projects?
+**So what? What can we do if we need to scale-out triple-stores and we want to use and support open-source projects?**
 
 Some projects Jena TDB + HBase or Graph DBs with RDF/SPARQL/Gremlin
 
