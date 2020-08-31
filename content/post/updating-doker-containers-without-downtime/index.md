@@ -49,7 +49,6 @@ services:
         published: 7000
       - target: 9042
         published: 9042
-        mode: host
 ```
 This service creates an Apache Cassandra node which is connected in a cluster to other 2 nodes, making a cluster of 3 nodes. It also opens the ports 7000 and 9042.
 
@@ -79,7 +78,10 @@ services:
         published: 7199
 ```
 
-(2) Run again the command `docker stack deploy -c docker-compose.yml example_project`. 
+(2) Run again the command:
+```bash
+docker stack deploy -c docker-compose.yml example_project
+``` 
 
 In that way the Docker Swarm will create a new version of our service and stop old version after that.
 

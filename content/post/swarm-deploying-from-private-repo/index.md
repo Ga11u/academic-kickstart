@@ -35,7 +35,7 @@ Lets assume that we have our private images in GitLab and we have already deploy
 
 The first thing you need to do is:
 
-```cmd
+```bash
 docker login <gitlab-url>:<repository-port>
 ```
 
@@ -45,7 +45,7 @@ Then you will be asked to provide your `username` and password. The `password` i
 
 Finnaly, you can deploy your stack as always by adding the option `--with-registry-auth`.
 
-```cmd
-docker stack deploy -c docker-compose.yml nh --with-registry-auth
+```bash
+docker stack deploy -c docker-compose.yml example-project --with-registry-auth
 ```
 
